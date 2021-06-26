@@ -1,0 +1,182 @@
+.navbar-brand
+{
+    width: 45 px;
+    height: 45 px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#Logo
+{
+  width: 2cm;
+}
+
+#linkRS
+{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin-right: 10px;
+    padding-right: 20px;
+    background-color:rgb(253, 208, 189);
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbarSupportedContent a:hover
+{
+  background-color: #fdf9f9;
+  border: border p-3 border-2 small shadow;
+}
+#NBDD a:hover
+{
+  color: #f18f8f;
+}
+
+#NavCarrito:hover
+{
+  background-color: crimson;
+  padding: auto;
+}
+
+#BtnBuscar:hover
+{
+  background-color: crimson;
+  padding: auto;
+  margin-left: auto;
+}
+
+#Libro1, #Libro2, #Libro3
+{
+  height: 11cm;
+}
+
+/* Frase luego del Carrusel*/
+
+#FrasePrincipal
+{
+text-align: center;
+}
+
+/* carrusel */
+
+p h4
+{ border: black;
+border-radius: 2em;}
+
+h4, h2,small,a{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.Carousel{
+  width: 100%;
+  
+}
+.Carousel h2{
+  color: #b8355c;
+  font-size: 26px;
+  line-height: 38px;
+  padding-bottom: 24px;
+  opacity: .9;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* images */
+
+.lista{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+.Formacion{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+.Desplazamiento{
+  position: relative;
+  width: 275px;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+.Desplazamiento h4{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: black 0.1em 0.2em 0.2em;
+  font-style: oblique;
+  padding: 15px;
+}
+
+
+.Desplazamiento h4 small{
+  font-size: 15px;
+  display: block;
+}
+.Desplazamiento a img{
+  object-fit:contain;
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 6px 9px 0 #ccb37dc7;
+  transition: .3s ease-in-out;
+}
+.Desplazamiento a img:hover{
+  opacity: .85;
+  
+}
+
+/* buttons */
+
+.Flechas{
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  border: 0;
+  cursor: pointer;
+}
+.Flechas:focus{
+  outline: 0;
+}
+.Flechas svg{
+  width: 12px;
+  height: 100%;
+  color: rgba(0,0,0,.7);
+}
+.atras{
+  left: 0px;
+}
+.adelante{
+  right: 0px;
+}
+
+Footer
+{
+  text-align: center;
+  background-color: #55CBCD;
+  
+}
+
